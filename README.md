@@ -14,13 +14,9 @@ Replace *scrot* with *grim* if you're using Wayland.
 | FreeBSD | `# pkg install bash scrot ffmpeg` |
 | OpenBSD | `# pkg_add bash scrot ffmpeg` |
 
-after that just download the script, then
+after that just download the script, then run it
 ```
 $ chmod +x prolapse.sh
-$ bash prolapse.sh
+$ bash prolapse.sh -h
 ```
-and run the thing
-```
-$ ./prolapse.sh -h
-```
-all there is to it
+
