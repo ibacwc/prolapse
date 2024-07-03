@@ -9,7 +9,7 @@ if [[ "$1" == "-h" || $1 == "--help" || $1 == "-help"  || $# -eq 0 ]]; then
 \e[1mFlags:\e[0m
   -h - help
   -t - time between frames (no default)
-  -d - picture output dir (if not specified, uses \$PWD)
+  -d - picture output dir (if not specified, uses mktemp -d)
   -o - final video location (default is out.mp4)
   -f - fps (default is 30)
   -q - quiet mode (default)
